@@ -1,0 +1,106 @@
+main {
+  
+  max-width: 240px;
+  text-align: center;
+  margin-top: 2% 4%;
+  
+}
+button{
+  cursor: pointer;
+}
+h1{
+  color: brown; 
+  text-align: center;
+}
+.inputBox{
+  width: 15%;
+  border: none;
+  
+}
+.inputBox1{
+  width: auto;
+  border: none;
+}
+.addButton{
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+
+}
+.floating-button{
+  position: fixed;
+  bottom: 20px; 
+  right: 20px;  /* Distance from the right side of the viewport */
+  width: 80px;  /* Button width */
+  height: 80px; /* Button height */
+  border: none; /* Remove border */
+  border-radius: 50%; /* Make it circular */
+  font-size: 24px; /* Text size */
+  display: flex; /* Center the content */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  box-shadow: 0 4px 8px rgba(7, 7, 255, 0.611); /* Add some shadow for better visibility */
+}
+.floating-button2{
+  position: fixed;
+  bottom: 20px; 
+  left: 20px;  /* Distance from the right side of the viewport */
+  width: 80px;  /* Button width */
+  height: 80px; /* Button height */
+  border: none; /* Remove border */
+  border-radius: 50%; /* Make it circular */
+  font-size: 24px; /* Text size */
+  display: flex; /* Center the content */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  box-shadow: 0 4px 8px rgba(7, 7, 255, 0.611); /* Add some shadow for better visibility */
+}
+.floating-card{
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* Center the content vertically */
+  box-shadow: 0 4px 8px rgba(7, 7, 255, 0.611); /* Add some shadow for better visibility */
+}
+.floating-card1{
+  position: fixed;
+  bottom: 20px; 
+  left: 20px;  /* Distance from the right side of the viewport */
+  width: 80px;  /* Button width */
+  height: 80px; /* Button height */
+  border: none; /* Remove border */
+  border-radius: 50%; /* Make it circular */
+  font-size: 24px; /* Text size */
+  display: flex; /* Center the content */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  box-shadow: 0 4px 8px rgba(7, 7, 255, 0.611); /* Add some shadow for better visibility */
+}
+.timers{
+    display: grid;
+    grid-template-columns: repeat(5, auto); /* Adjust the number of columns */
+    gap: 40px; /* Optional: Add some spacing between components */
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+.title-bar{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  gap: 10px;
+
+}
+
+
+.wbInput{
+  width: 50px;
+  height: 30px;
+}
+h4{
+  text-align: left;
+}
+button.pause button.play {  
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
